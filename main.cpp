@@ -9,7 +9,20 @@ enum class Compass {N, S, W, E};
 
 // Write your code here
 class GPS {
+  private:
+  double Latitide[0.0,90.0];
+  double Longitude[0.0, 180.0];
+  double LatitideDirection{Compass::N};
+  Double LongetitudeDirection {Compass:: W}
+  public: 
+  double c.getLatitudeDirection(){ return Latitude; }
+  double c.getLongitudeDirection(){return Longitude; }
 
+};
+enum class Compass{
+  private:
+  
+    
 };
 
 //------------------------------
